@@ -190,12 +190,12 @@ a:active {
 	
 
 }
-.box:hover {
+/*.box:hover {
 	border: solid 2px black;
 	background-color: white;
 	color: black;
 
-}
+}*/
 
 #boxes-wrapper {
 	width: 100%;
@@ -288,10 +288,11 @@ a:active {
 	
 
 }
-.box-short:hover {
+/*.box-short:hover {
 	opacity: 0.8;
 
 }
+*/
 /*down arrow code*/
 .center-con {
     display: none;
@@ -422,11 +423,11 @@ span:nth-child(4) {
 	
 }
 
-.donate-button:hover {
+/*.donate-button:hover {
 	border: solid 2px black;
 	background-color: black;
 	color: white;
-}
+}*/
 
 .donate-button-text {
 	text-align: center;
@@ -521,10 +522,10 @@ span:nth-child(4) {
 	background-color: #A2A2A2;
 
 }
-.premiere-more:hover{
+/*.premiere-more:hover{
 	background-color: black;
 	color: white;
-}
+}*/
 .sub-text-schedule {
 	font-style: italic;
 	font-size: 3vw;
