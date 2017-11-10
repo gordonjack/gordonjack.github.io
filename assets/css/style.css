@@ -114,7 +114,7 @@ a:active {
 
 #contact-section {
 	background-color: #8bb2af;
-	background-image: url("assets/img/henleydock.jpg");*/
+	/*background-image: url("assets/img/henleydock.jpg");*/
 	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleydock.jpg") no-repeat center fixed;
 	background-size:cover;
 }
