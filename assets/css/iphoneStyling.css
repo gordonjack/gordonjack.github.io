@@ -57,6 +57,9 @@ a:active {
 	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleyboystest.jpg") no-repeat center fixed;
 	background-size: cover;
 	background-color: blue;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 #boxes-section {
 	background-color: #2bde73;
@@ -72,6 +75,9 @@ a:active {
 	/*background-image: url(assets/img/1937background.JPG);*/
 	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/1937background.JPG") no-repeat center fixed;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	
 }
 #premiere-section {
@@ -93,8 +99,9 @@ a:active {
 	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/jackfilm.JPG") no-repeat center fixed;
 	background-size: cover;
 	background-position: center center;
-
-
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 #shorts-section {
@@ -119,6 +126,9 @@ a:active {
 	/*background-image: url("assets/img/henleydock.jpg");*/
 	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleydock.jpg") no-repeat center fixed;
 	background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .menu-item {
