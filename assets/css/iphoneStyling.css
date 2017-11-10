@@ -15,6 +15,23 @@ a {
 	color:white;
 }
 
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%;
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 50%; 
+	transform: translateX(-50%);
+	width: 100%; 
+	height: 75%; 
+}
+
 /* mouse over link */
 a:hover {
     color: grey;
@@ -37,7 +54,7 @@ a:active {
 }
 #home-section {
 	/*background-image: url("assets/img/henleyboystest.jpg");*/
-	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleyboystest.jpg") no-repeat center fixed;
+	/*background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleyboystest.jpg") no-repeat center fixed;*/
 	background-size: cover;
 	background-color: blue;
 }
@@ -53,7 +70,7 @@ a:active {
 #trailer-section {
 	background-color: #2bde73;
 	/*background-image: url(assets/img/1937background.JPG);*/
-	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/1937background.JPG") no-repeat center fixed;
+	/*background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/1937background.JPG") no-repeat center fixed;*/
 	background-size: cover;
 	
 }
@@ -73,7 +90,7 @@ a:active {
 
 #filmmaker-section {
 	/*background-image: url(assets/img/jackfilm.JPG);*/
-	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/jackfilm.JPG") no-repeat center fixed;
+	/*background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/jackfilm.JPG") no-repeat center fixed;*/
 	background-size: cover;
 	background-position: center center;
 
@@ -100,7 +117,7 @@ a:active {
 #contact-section {
 	background-color: #8bb2af;
 	/*background-image: url("assets/img/henleydock.jpg");*/
-	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleydock.jpg") no-repeat center fixed;
+	/*background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleydock.jpg") no-repeat center fixed;*/
 	background-size:cover;
 }
 
@@ -527,7 +544,7 @@ span:nth-child(4) {
 	font-family: 'Poppins';
 }
 .contact-text-2 {
-	font-size: 6vw;
+	font-size: 5vw;
 	font-weight: 700;
 	text-align: center;
 	margin:30px;
@@ -622,4 +639,14 @@ img {
 }
 .mobile-image-wrapper {
 	text-align: center;
+}
+
+#changeText {
+	font-size: 5vw;
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	display: inline-block;
+	font-family: 'Poppins';
+	width:100%;
 }

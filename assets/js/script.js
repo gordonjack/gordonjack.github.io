@@ -54,7 +54,19 @@ $(document).ready(function() {
         );
 
 	})
-		
+
+	var text = ["facebook.com/taborrowing", "instagram.com/taborrowing", "twitter.com/taborrowing"];
+	var counter = 0;
+	var elem = document.getElementById("changeText");
+	setInterval(change, 3000);
+
+	function change() {
+	  elem.innerHTML = text[counter];
+	  counter++;
+	  if (counter >= text.length) {
+	    counter = 0;
+	  }
+	}
 
 		})
 
