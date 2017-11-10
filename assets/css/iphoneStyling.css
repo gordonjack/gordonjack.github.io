@@ -520,6 +520,7 @@ span:nth-child(4) {
 	width:70vw;
 	display: inline-block;
 	background-color: #A2A2A2;
+	margin-bottom: 5vh;
 
 }
 /*.premiere-more:hover{
