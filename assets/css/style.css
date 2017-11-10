@@ -71,7 +71,7 @@ a:active {
 #trailer-section {
 	background-color: #2bde73;
 	/*background-image: url(assets/img/1937background.JPG);*/
-	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/1937background.JPG") no-repeat center fixed;
+	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/1937background.jpg") no-repeat center fixed;
 	background-size: cover;
 	height:100vh;
 	-webkit-background-size: cover;
