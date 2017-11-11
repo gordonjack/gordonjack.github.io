@@ -52,7 +52,7 @@ a:active {
 }
 #home-section {
 	/*background-image: url("assets/img/henleyboystest.jpg");*/
-	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleyboystest.jpg") no-repeat center fixed;
+	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/c1.jpg") no-repeat center fixed;
 	background-size: cover;
 	background-color: #B21E3B;
 	-webkit-background-size: cover;
@@ -125,7 +125,7 @@ a:active {
 #contact-section {
 	background-color: #B21E3B;
 	/*background-image: url("assets/img/henleydock.jpg");*/
-	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleydock.jpg") no-repeat center fixed;
+	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/girlswin88.jpg") no-repeat center top fixed;
 	background-size:cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
