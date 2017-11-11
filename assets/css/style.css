@@ -713,3 +713,9 @@ img {
 	margin: 20px;
 	font-family: 'Poppins';
 }
+#sidebar-button {
+	display: none;
+}
+.sidebar-container {
+	display: none;
+}

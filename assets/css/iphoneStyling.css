@@ -34,12 +34,12 @@ a {
 
 /* mouse over link */
 a:hover {
-    color: grey;
+    color: white;
 }
 
 /* selected link */
 a:active {
-    color: red;
+    color: white;
 }
 
 .section {
@@ -690,27 +690,19 @@ img {
 #nav-toggle { 
 	position: absolute; 
 	left: 50%; top: 50%; 
+	fill:white;
 }
 
 #nav-toggle {
-	padding: 10px 30px 15px 0px; 
+	padding: 1vw; 
 }
 
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-	height: 3px;
-	width: 30px;
-	background: #fff;
+#nav-toggle {
+	height: 10vw;
+	width: 10vw;
+	background: black;
 	position: absolute;
 	display: block;
-	content: '';
-}
-
-#nav-toggle span:before {
-	top: -10px; 
-}
-
-#nav-toggle span:after {
-	bottom: -10px;
 }
 
 /* FREEBIES */
@@ -726,6 +718,8 @@ img {
 	-moz-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s;
+	color: white;
+	
 } 
 
 /* Overriding default styles on the ul */
