@@ -669,7 +669,7 @@ img {
 	width:50vw;
 	height:100%;
 	background-color: black;
-	-webkit-transform: translateX(-50vw);
+	-webkit-transform: translateX(+100vw);
 	-webkit-transition: all 0.3s;
 	z-index: 100;
 }
@@ -711,14 +711,15 @@ img {
 #sidebar-button {
 	position: fixed;
 	z-index: 100;
-	left: 15px;
-	top: 15px;
+	left: 85vw;
+	top: 2vh;
 	cursor: pointer;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s;
 	color: white;
+	/*-webkit-transform: translateX(+79vw);*/
 	
 } 
 
@@ -730,14 +731,16 @@ img {
 	margin-top: 10px;
 	height: 100%
 }
-.wrapper-active, .button-active {
-	-webkit-transform: translateX(50vw);
-	-moz-transform: translateX(50vw);
-	transform: translateX(50vw);
+.button-active {
+
+	-webkit-transform: translateX(-50vw);
+	-moz-transform: translateX(-50vw);
+	transform: translateX(-50vw);
+
 }
 
 .sidebar-active {
-	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
-	-o-transform: translateX(0px);
+	-webkit-transform: translateX(50vw);
+	-moz-transform: translateX(50vw);
+	-o-transform: translateX(50vw);
 }

@@ -86,6 +86,8 @@ $(document).ready(function() {
       $("#sidebar-button").removeClass("button-active");
       $(".sidebar-container").removeClass("sidebar-active");
  })
+
+
 		})
 
 
