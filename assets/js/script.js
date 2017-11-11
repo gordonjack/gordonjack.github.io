@@ -87,8 +87,6 @@ $(document).ready(function() {
       $(".sidebar-container").removeClass("sidebar-active");
  })
 
-
-
 //(When the user clicks on an anchor tag)
 //remove the no scroll class on the body
 //animate the html and body tags using the above function
@@ -102,8 +100,8 @@ $('a').click(function(){
 	$('html, body').animate({
 	scrollTop: $( $.attr(this, 'href')).offset().top
 	}, 300);
+	$("#sidebar-button").removeClass("button-active");
 	$(".sidebar-container").delay(1000).removeClass("sidebar-active");
-	$(".sidebar-button").delay(1000).removeClass("button-active");
 	return false;
 })
 
