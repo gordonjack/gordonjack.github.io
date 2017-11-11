@@ -54,6 +54,18 @@ $(document).ready(function() {
         );
 
 	})
+	$("#film-box").click(function(){
+
+		window.location = "watch.html";
+	})
+	$("#premiere-box-2").click(function(){
+
+		window.location = "index.html#premiere-section";
+	})
+	$("#backtohome-box").click(function(){
+
+		window.location = "index.html";
+	})
 
 	var text = ["facebook.com/taborrowing", "instagram.com/taborrowing", "twitter.com/taborrowing"];
 	var counter = 0;

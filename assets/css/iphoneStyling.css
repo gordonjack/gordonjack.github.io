@@ -744,3 +744,25 @@ img {
 	-moz-transform: translateX(50vw);
 	-o-transform: translateX(50vw);
 }
+#home-text2 {
+	color: white;
+	font-size:30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Poppins';
+	padding: 20vh 10vw 0vh 10vw;
+}
+#watch-page {
+	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/c3.jpg") no-repeat center fixed;
+	background-size: cover;
+	background-color: #B21E3B;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+#premiere-box-2 {
+
+}
+#backtohome-box {
+	
+}
