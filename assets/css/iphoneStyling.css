@@ -564,6 +564,7 @@ span:nth-child(4) {
 	margin:30px;
 	color: white;
 	font-family: 'Poppins';
+	margin-bottom: 10vh;
 
 }
 .social-media-wrapper {
@@ -766,3 +767,4 @@ img {
 #backtohome-box {
 	
 }
+

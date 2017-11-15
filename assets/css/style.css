@@ -407,7 +407,15 @@ span:nth-child(4) {
 	font-family: 'Poppins';
 	padding: 40vh 10vw 0vh 10vw;
 }
-
+#home-text3 {
+	color: black;
+    font-size: 270px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    line-height: 80%;
+    padding: 130px 50px 0px 50px;	
+}
 .donate-text {
 	font-size:25px;
 	text-align: center;
@@ -455,10 +463,12 @@ span:nth-child(4) {
 .donate-button-text {
 	text-align: center;
 	font-size:30px;
-	position: relative;
     font-weight: 700;
-    vertical-align: middle;
     font-family: 'Poppins';
+    position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 
 }
 #premiere-sub {
@@ -631,7 +641,7 @@ padding-left:20px;
 	text-align: center;
 	color: white;
 	font-family: 'Poppins';
-	padding-bottom: 5vh;
+	padding-bottom: 10vh;
 
 }
 .social-media-wrapper {
@@ -741,4 +751,257 @@ img {
 }
 #backtohome-box {
 	
+}
+
+/*Making the Film CSS*/
+#home-text3 {
+	color: white;
+    font-size: 270px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    line-height: 80%;
+    padding: 130px 50px 0px 50px;	
+}
+#landing-making {
+	
+	height: 100vh;
+}
+
+.column-make {
+	height:100%;
+	float: left;
+	display: inline-block;
+}
+#left-column {
+	width:49%;
+	height:100%;
+	
+}
+#center-column {
+	width:2%;
+	height: 760vh;
+	text-align: center;
+	
+}
+#right-column {
+	width:49%;
+}
+
+#timeline-make{
+	width: 100%;
+	height: 760vh;
+	
+	text-align: center;
+
+}
+/*EMPTY CLASSES BOXES*/
+
+.event-box-text-box{
+	
+}
+.event-box-date{
+	
+}
+
+.event-box-title {
+	
+}
+
+/*ACTIVE BOXES*/
+.event-box{
+	height:250px;
+	width:450px;
+	background-color: white;
+	display: inline-block;
+	text-align: left;
+}
+
+.event-box-photo {
+	width:225px;
+	height: 250px;
+	float:left;
+	object-fit: cover;
+	background-color: white;
+
+}
+.event-box-photo img{
+	object-fit: cover;
+	overflow: hidden;
+	width:100%;
+	height: 100%;
+	background-color: white
+}
+.event-box-text-box-norm{
+	width:225px;
+	height: 250px;
+	float:left;
+	background-color: white;
+	text-align: left;
+}
+.event-box-date-norm{
+	text-align: left;
+	display: inline-block;
+	font-size:20px;
+	color:#B21E3B;
+	font-weight: 700;
+	font-family: 'Poppins';
+	margin:60px 30px 10px 40px;
+}
+
+.event-box-title-norm {
+	text-align: left;
+	font-size:25px;
+	color:black;
+	font-weight: 700;
+	font-family: 'Poppins';
+	line-height: 100%;
+	margin: 10px 30px 30px 40px;
+}
+
+/*HOVER BOX*/
+.event-box-h{
+	
+}
+
+.event-box-photo-h {
+	width:225px;
+	height: 250px;
+	float:left;
+	object-fit: cover;
+	background-color: white;
+	display: none;
+
+}
+.event-box-photo-h img{
+	object-fit: cover;
+	overflow: hidden;
+	width:100%;
+	height: 100%;
+	background-color: white;
+	display:none;
+}
+.event-box-text-box-h{
+	width:450px;
+	height: 250px;
+	float:left;
+	background-color: white;
+	text-align: left;
+}
+.event-box-date-h{
+	text-align: left;
+	display: inline-block;
+	font-size:20px;
+	color:#B21E3B;
+	font-weight: 700;
+	font-family: 'Poppins';
+	margin:20px 30px 0px 30px;
+}
+
+.event-box-title-h {
+	text-align: left;
+	display: inline-block;
+	font-size:25px;
+	color:black;
+	font-weight: 700;
+	font-family: 'Poppins';
+	line-height: 100%;
+	margin: 0px 30px 10px 30px;
+}
+.event-box-details{
+	text-align: left;
+	display: inline-block;
+	font-size:20px;
+	color:black;
+	line-height: 100%;
+	margin: 0px 30px 30px 30px;
+	display: none;
+}
+.dogs {
+	/*USED FOR JQUERY TOGGLE*/
+}
+
+/*END --> HOVER BOX*/
+
+.line {
+	width:5px;
+	height: 760vh;
+	color: white;
+	background-color: white;
+	display: inline-block;
+	margin-top: -90px;
+}
+.dot{
+	width:14px;
+	height: 14px;
+	border-radius: 100px;
+	background-color: white;
+	color: white;
+	display: inline-block;
+	
+}
+
+
+#dot1 {
+	margin-top: 158px;
+}
+#dot2,#dot4,#dot7,#dot9,#dot13,#dot15,#dot18,#dot20,#dot23{
+	margin-top: 110px;
+}
+#dot3,#dot5,#dot12,#dot14,#dot16,#dot17,#dot22,#dot24 {
+	margin-top: 236px;
+}
+#dot5,#dot6,#dot25 {
+	margin-top: 361px;
+}
+
+#dot8,#dot10,#dot19,#dot21 {
+	margin-top: 165px;
+}
+#dot11 {
+	margin-top:120px;
+}
+#dot26 {
+	margin-top: 250px;
+}
+
+
+#left1 {
+	margin-top:-50px;
+}
+#right1 {
+	margin-top: 75px;
+}
+#left2,#right2,#right3,#left4,#left7,#right7,#left8,#right8,#left9,#left10,#right12,#left13, #right13,#left135 {
+	margin-top:125px;
+}
+
+#left3,#right9,#right4 {
+	margin-top: 250px;
+}
+
+#left5,#right5,#left6,#right6,#right10,#left11,#right11{
+	margin-top: 62px;
+}
+#left12 {
+	margin-top: 187px;
+}
+#right14 {
+	margin-top: 377px;
+}
+.page-wrapper-2 {
+	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleyboystest.jpg") no-repeat center fixed;
+	background-size: cover;
+	background-color: transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.dot-wrapper {
+	position: absolute;
+	width:28px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }

@@ -73,7 +73,7 @@ $(document).ready(function() {
 	setInterval(change, 3000);
 
 	function change() {
-	  elem.innerHTML = text[counter];
+	  //elem.innerHTML = text[counter];
 	  counter++;
 	  if (counter >= text.length) {
 	    counter = 0;
@@ -108,7 +108,32 @@ $('a').click(function(){
 	return false;
 })
 
+$(".event-box").hover(function(){
+
+	if ($(this).hasClass("dogs")) {
+      	$(this).removeClass("dogs");
+		$(this).addClass("event-box-h");
+        $(this).find('.event-box-text-box').removeClass('event-box-text-box-norm').addClass('event-box-text-box-h');
+        $(this).find('.event-box-title').removeClass('event-box-title-norm').addClass('event-box-title-h');
+        $(this).find('.event-box-date').removeClass('event-box-date-norm').addClass('event-box-date-h');
+        $(this).find('.event-box-photo').css("display", "none");
+        $(this).find('.event-box-details').css("display", "inline-block");
+
+  }
+
+  	else{
+  		$(this).removeClass("event-box-h");
+		$(this).addClass("dogs");
+        $(this).find('.event-box-text-box').removeClass('event-box-text-box-h').addClass('event-box-text-box-norm');
+        $(this).find('.event-box-title').removeClass('event-box-title-h').addClass('event-box-title-norm');
+        $(this).find('.event-box-date').removeClass('event-box-date-h').addClass('event-box-date-norm');
+        $(this).find('.event-box-photo').css("display", "");
+        $(this).find('.event-box-details').css("display", "none");
+    }
+
 		})
+
+})
 
 
 		
