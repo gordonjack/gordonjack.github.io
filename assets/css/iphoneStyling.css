@@ -767,4 +767,159 @@ img {
 #backtohome-box {
 	
 }
+.page-wrapper-2 {
+	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleyboystest.jpg") no-repeat center fixed;
+	background-size: cover;
+	background-color: transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.dot-wrapper {
+	position: absolute;
+	width:28px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
 
+
+/*CREDITS*/
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  /* Removes padding behaviour on widths */
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+/* Attribute selector */
+[class*='bit-'] {
+  float: left;
+  padding: 10px;
+}
+ 
+/* Floats last ".bit-" to the right */
+[class*='bit-']:last-of-type {
+  padding-right: 10px;
+  float: right;
+}
+ 
+/* Clearfix */
+.frame:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Main Widths */
+.bit-3  {width: 33.33%;}
+
+/*base tablet styles*/
+@media (max-width: 800px) {
+.bit-4,
+  .bit-6,
+  .bit-8,
+  .bit-10,
+  .bit-12 {
+    width: 50%;
+  }
+ 
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-5,
+  .bit-7,
+  .bit-9,
+  .bit-11 {
+    width: 100%;
+  }
+}
+/*base mobile styles - everything 100%*/
+@media (max-width: 480px) {
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-4,
+  .bit-5,
+  .bit-6,
+  .bit-7,
+  .bit-8,
+  .bit-9,
+  .bit-10,
+  .bit-11,
+  .bit-12 {
+    width: 100%;
+  }
+}
+  .bit-3{
+  	width:29.33%;
+  	height:25vh;
+  	background-color: white;
+  	margin:2% 2% 0% 2%;
+  	padding:1vw;
+  }
+  .bit-3:hover{
+  	box-shadow: 0 0 40px black;
+  }
+
+  .grid-title {
+  	font-size: 100%;
+  	color: black;
+  	text-align: left;
+	font-weight: 700;
+	font-family: 'Poppins';
+	line-height: 100%;
+  }
+  .grid-text {
+  	font-size:90%;
+  	color: #B21E3B;
+  	text-align: left;
+  	font-weight: 700;
+  }
+  .thanks-wrapper {
+
+  }
+.home-text6 {
+	color: white;
+	font-size:4vw;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Poppins';
+}
+.home-text5 {
+	color: white;
+	font-size:9vw;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Poppins';
+}
+#credit-making {
+	
+	height:700vh;
+}
+.frame {
+	margin:0% 2% 0% 2%;
+}
+#home-text4 {
+	color: white;
+    font-size: 23vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    line-height: 80%;
+    padding-top: 20vh;	
+}
+#home-text5 {
+	color: white;
+	font-size:9vw;
+	text-align: center;
+	text-transform: uppercase;
+	padding:10px;
+	font-family: 'Poppins';
+	margin-bottom: 4vh;
+}

@@ -58,6 +58,7 @@ a:active {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	height:100vh;
 }
 #watch-page {
 	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/c3.jpg") no-repeat center fixed;
@@ -82,7 +83,7 @@ a:active {
 	/*background-image: url(assets/img/1937background.JPG);*/
 	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/1937background.jpg") no-repeat center fixed;
 	background-size: cover;
-	height:100vh;
+	height:115vh;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -416,6 +417,25 @@ span:nth-child(4) {
     line-height: 80%;
     padding: 130px 50px 0px 50px;	
 }
+#home-text4 {
+	color: white;
+    font-size: 23vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    line-height: 80%;
+    padding-top: 20vh;	
+}
+#home-text5 {
+	color: white;
+	font-size:9vw;
+	text-align: center;
+	text-transform: uppercase;
+	padding:10px;
+	font-family: 'Poppins';
+	margin-bottom: 4vh;
+}
+
 .donate-text {
 	font-size:25px;
 	text-align: center;
@@ -462,7 +482,7 @@ span:nth-child(4) {
 
 .donate-button-text {
 	text-align: center;
-	font-size:30px;
+	font-size:90%;
     font-weight: 700;
     font-family: 'Poppins';
     position: absolute;
@@ -540,7 +560,7 @@ span:nth-child(4) {
 	text-align: center;
 	font-size:25px;
 	font-weight: 700;
-	margin-top: 30px;
+	margin: 20px;
 	font-family: 'Poppins';
 }
 .rsvp-text {
@@ -1004,4 +1024,125 @@ img {
 	margin-right: auto;
 	left: 0;
 	right: 0;
+}
+
+
+/*CREDITS*/
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  /* Removes padding behaviour on widths */
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+/* Attribute selector */
+[class*='bit-'] {
+  float: left;
+  padding: 10px;
+}
+ 
+/* Floats last ".bit-" to the right */
+[class*='bit-']:last-of-type {
+  padding-right: 10px;
+  float: right;
+}
+ 
+/* Clearfix */
+.frame:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Main Widths */
+.bit-3  {width: 33.33%;}
+
+/*base tablet styles*/
+@media (max-width: 800px) {
+.bit-4,
+  .bit-6,
+  .bit-8,
+  .bit-10,
+  .bit-12 {
+    width: 50%;
+  }
+ 
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-5,
+  .bit-7,
+  .bit-9,
+  .bit-11 {
+    width: 100%;
+  }
+}
+/*base mobile styles - everything 100%*/
+@media (max-width: 480px) {
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-4,
+  .bit-5,
+  .bit-6,
+  .bit-7,
+  .bit-8,
+  .bit-9,
+  .bit-10,
+  .bit-11,
+  .bit-12 {
+    width: 100%;
+  }
+}
+  .bit-3{
+  	width:29.33%;
+  	height:25vh;
+  	background-color: white;
+  	margin:2% 2% 0% 2%;
+  	padding:1vw;
+  }
+  .bit-3:hover{
+  	box-shadow: 0 0 40px black;
+  }
+
+  .grid-title {
+  	font-size: 180%;
+  	color: black;
+  	text-align: left;
+	font-weight: 700;
+	font-family: 'Poppins';
+  }
+  .grid-text {
+  	font-size:120%;
+  	color: #B21E3B;
+  	text-align: left;
+  	font-weight: 700;
+  }
+  .thanks-wrapper {
+  	padding-bottom: 5vh;
+  }
+.home-text6 {
+	color: white;
+	font-size:4vw;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Poppins';
+}
+.home-text5 {
+	color: white;
+	font-size:9vw;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Poppins';
+}
+#credit-making {
+	
+	
+}
+.frame {
+	margin:0% 2% 0% 2%;
 }
