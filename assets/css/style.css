@@ -41,7 +41,10 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: red;
+    color: #B21E3B;
+}
+.current {
+	color:#B21E3B;
 }
 
 .section {
@@ -83,7 +86,7 @@ a:active {
 	/*background-image: url(assets/img/1937background.JPG);*/
 	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/1937background.jpg") no-repeat center fixed;
 	background-size: cover;
-	height:115vh;
+	height:110vh;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -205,6 +208,8 @@ a:active {
     vertical-align: middle;
     color: white;
     font-family: 'Poppins';
+    transition: 0.5s;
+    cursor:pointer;
 
 	
 
@@ -415,7 +420,8 @@ span:nth-child(4) {
     text-transform: uppercase;
     font-family: 'Poppins';
     line-height: 80%;
-    padding: 130px 50px 0px 50px;	
+    padding: 130px 50px 0px 50px;
+    margin-bottom:300px;	
 }
 #home-text4 {
 	color: white;
@@ -455,6 +461,7 @@ span:nth-child(4) {
 	position: relative;
     font-weight: 700;
     font-family: 'Poppins';
+    cursor: pointer;
 
 }
 .check-donate-box {
@@ -528,7 +535,7 @@ span:nth-child(4) {
 }
 .premiere-boxes-wrapper {
 	text-align: center;
-	padding-top: 30px;
+	
 
 }
 
@@ -631,6 +638,8 @@ padding-left:20px;
 	width:20%;
 	display: inline-block;
 	background-color: #A0A0A0;
+	cursor: pointer;
+	transition: 0.5s;
 
 }
 .premiere-more:hover{
@@ -651,7 +660,7 @@ padding-left:20px;
 	font-size: 50px;
 	font-weight: 700;
 	text-align: center;
-	margin:20px;
+	margin:20px 20px 0px 20px;
 	color: white;
 	font-family: 'Poppins';
 }
@@ -858,6 +867,7 @@ img {
 	float:left;
 	background-color: white;
 	text-align: left;
+
 }
 .event-box-date-norm{
 	text-align: left;
@@ -1010,6 +1020,14 @@ img {
 	margin-top: 377px;
 }
 .page-wrapper-2 {
+	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/c2.jpg") no-repeat center fixed;
+	background-size: cover;
+	background-color: transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.page-wrapper-3 {
 	background: linear-gradient(rgba(178, 30, 59, 0.4), rgba(178, 30, 59, 0.4)), url("assets/img/henleyboystest.jpg") no-repeat center fixed;
 	background-size: cover;
 	background-color: transparent;

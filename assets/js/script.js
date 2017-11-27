@@ -1,13 +1,15 @@
 $(document).ready(function() {
-
+ // jQuery Function Number #1
 	$(".premiere-more").click(function(){
 
 		if ($("#premiere-section-2").hasClass("premiere-section-2-inactive")){
 			$("#premiere-section-2").fadeIn(2000).addClass("premiere-section-2-active");
+			 // jQuery Function Number #2
 			$("#premiere-section-2").removeClass("premiere-section-2-inactive");
 			$("#premiere-section-2").css("display", "block");
 		}
 		else {
+			 // jQuery Function Number #3
 			$("#premiere-section-2").addClass("premiere-section-2-inactive");
 			$("#premiere-section-2").removeClass("premiere-section-2-active");
 			$("#premiere-section-2").css("display", "none");
@@ -17,8 +19,9 @@ $(document).ready(function() {
 	$(".donate-button").click(function(){
 
 			if ($(this).is("#cash-but")) {
-					
+					 // jQuery Function Number #4
 					$("#cash").fadeIn(1000).css("display", "inline-block");
+					 // jQuery Function Number #5
 					$("#online").fadeOut(1000).css("display", "none");
 					$("#question").fadeOut(1000).css("display", "none");
 				} 
@@ -40,7 +43,8 @@ $(document).ready(function() {
 	$("#trailer-box").click(function(){
 
         $('html, body').animate({
-            scrollTop: $('#trailer-section').position().top },
+        	 // jQuery Function Number #6
+            scrollTop: $('#trailer-section').position().top -20},
             1000
         );
     })
@@ -49,7 +53,7 @@ $(document).ready(function() {
 	$("#premiere-box").click(function(){
 
 		$('html, body').animate({
-            scrollTop: $('#premiere-section').position().top },
+            scrollTop: $('#premiere-section').position().top -20},
             1000
         );
 
@@ -73,7 +77,7 @@ $(document).ready(function() {
 	setInterval(change, 3000);
 
 	function change() {
-	  //elem.innerHTML = text[counter];
+	  elem.innerHTML = text[counter];
 	  counter++;
 	  if (counter >= text.length) {
 	    counter = 0;
@@ -101,7 +105,7 @@ $(document).ready(function() {
 
 $('a').click(function(){
 	$('html, body').animate({
-	scrollTop: $( $.attr(this, 'href')).offset().top
+	scrollTop: $( $.attr(this, 'href')).offset().top -20
 	}, 300);
 	$("#sidebar-button").removeClass("button-active");
 	$(".sidebar-container").delay(1000).removeClass("sidebar-active");
@@ -132,6 +136,40 @@ $(".event-box").hover(function(){
     }
 
 		})
+
+$('#home-section').waypoint(function() {
+    $("#menu1").addClass("current");
+    $("#menu10,#menu2,#menu3,#menu5,#menu8,#menu9").removeClass("current");
+});
+$('#synopsis-section').waypoint(function() {
+    $("#menu10").addClass("current");
+    $("#menu1,#menu2,#menu3,#menu5,#menu8,#menu9").removeClass("current");
+});
+$('#trailer-section').waypoint(function() {
+    $("#menu2").addClass("current");
+    $("#menu10,#menu1,#menu3,#menu5,#menu8,#menu9").removeClass("current");
+});
+$('#premiere-section').waypoint(function() {
+    $("#menu3").addClass("current");
+    $("#menu10,#menu2,#menu1,#menu5,#menu8,#menu9").removeClass("current");
+});
+$('#filmmaker-section').waypoint(function() {
+    $("#menu5").addClass("current");
+    $("#menu10,#menu2,#menu3,#menu1,#menu8,#menu9").removeClass("current");
+});
+$('#donate-section').waypoint(function() {
+    $("#menu8").addClass("current");
+    $("#menu10,#menu2,#menu3,#menu5,#menu9,#menu1").removeClass("current");
+})
+$('#contact-section').waypoint(function() {
+    $("#menu9").addClass("current");
+    $("#menu10,#menu2,#menu3,#menu5,#menu8,#menu1").removeClass("current");
+});
+
+//$("#home-section").waypoint(function() {
+//	$("#menu1").css("color","blue");
+//})
+
 
 })
 
