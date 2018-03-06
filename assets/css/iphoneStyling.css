@@ -70,6 +70,10 @@ a:active {
 #synopsis-section {
 	background-color: #FCFCFC;
 }
+#register-section {
+	background-color: #B21E3B;
+	padding:1vh;
+}
 
 #trailer-section {
 	background-color: #B21E3B;
@@ -226,6 +230,16 @@ a:active {
 }
 
 .section-title {
+	color: black;
+	text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align:center;
+    padding-top: 20px;
+    font-family: 'Poppins';
+}
+.synopsis-title {
 	color: black;
 	text-transform: uppercase;
     font-weight: 700;

@@ -80,6 +80,12 @@ a:active {
 #synopsis-section {
 	background-color: #FCFCFC;
 }
+#register-section {
+	background-color: #B21E3B;
+	padding:2vh;
+	text-align: center;
+
+}
 
 #trailer-section {
 	background-color: #B21E3B;
@@ -246,6 +252,16 @@ a:active {
     padding-top: 20px;
     font-family: 'Poppins';
 }
+.synopsis-title {
+	color: black;
+	text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align:center;
+    font-family: 'Poppins';
+}
+
 
 #trailer-video {
 	display: block;
@@ -656,6 +672,7 @@ padding-left:20px;
 	margin: 6vh 15vw 10vh 15vw;
 	text-align: center;
 }
+
 .contact-text {
 	font-size: 50px;
 	font-weight: 700;
